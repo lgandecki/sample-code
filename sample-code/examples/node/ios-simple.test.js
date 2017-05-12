@@ -12,7 +12,7 @@ describe("ios simple", function () {
   var driver;
   var allPassed = true;
 
-  before(function () {
+  beforeAll(function () {
     var serverConfig = process.env.npm_package_config_sauce ?
       serverConfigs.sauce : serverConfigs.local;
     driver = wd.promiseChainRemote(serverConfig);

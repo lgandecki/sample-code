@@ -2,8 +2,8 @@ exports.ios92 = {
   browserName: '',
   'appium-version': '1.6',
   platformName: 'iOS',
-  platformVersion: '10.1',
-  deviceName: 'iPhone 5s',
+  platformVersion: '10.3',
+  deviceName: 'iPhone Simulator',
   app: undefined // will be set later
 };
 
@@ -11,7 +11,7 @@ exports.ios81 = {
   browserName: '',
   'appium-version': '1.6',
   platformName: 'iOS',
-  platformVersion: '10.1',
+  platformVersion: '10.3',
   deviceName: 'iPhone Simulator',
   app: undefined // will be set later
 };

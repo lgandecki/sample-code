@@ -22,13 +22,16 @@
     "chai": "^2.2.0",
     "chai-as-promised": "^5.0.0",
     "colors": "^1.0.3",
+    "cucumber": "^2.0.0-rc.9",
     "express": "^4.12.3",
+    "jest": "^19.0.2",
     "mocha": "^2.4.5",
     "q": "^2.0.2",
     "underscore": "^1.8.3",
     "wd": "^0.3.11"
   },
   "scripts": {
+    "jest-ios-simple": "jest ios-simple.js",
     "ios-simple": "mocha ios-simple.js",
     "ios-complex": "mocha ios-complex.js",
     "ios-webview": "mocha ios-webview.js",
